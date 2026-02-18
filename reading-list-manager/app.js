@@ -1,3 +1,12 @@
+const {
+  printAllBooks,
+  printSummary,
+  getUnreadBooks,
+  getBooksByGenre,
+  markAsRead,
+  addBook,
+} = require('./readingList.js'); // تأكدي من المسار صحيح
+
 // This is the entrypoint for your application.
 // node app.js
 
@@ -10,4 +19,6 @@
 
 console.log('📚 MY READING LIST 📚\n');
 
-// Your implementation here
+printAllBooks();
+
+printSummary();
